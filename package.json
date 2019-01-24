@@ -1,0 +1,33 @@
+{
+  "name": "importeer",
+  "version": "0.0.0-pre0",
+  "description": "Import Dynamic Modules at runtime if needed so that they can Unload if not needed",
+  "main": "dist/importeer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/direktspeed/importeer.git"
+  },
+  "keywords": [
+    "import",
+    "require",
+    "browser",
+    "node",
+    "dynamic"
+  ],
+  "author": "Frank Lemanschik <frank@dspeed.eu>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/direktspeed/importeer/issues"
+  },
+  "files": [
+    "dist"
+  ],
+  "homepage": "https://github.com/direktspeed/importeer#readme",
+  "devDependencies": {
+    "esm": "^3.1.1",
+    "systemjs": "^3.0.0"
+  }
+}
